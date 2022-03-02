@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/colors.scss'; // Tell webpack that Button.js uses these styles
+import '../styles/build/forty_acres.scss'; // Tell webpack that Button.js uses these styles
 
 const Button = (props) => {
    return (
-      <button className={`btn btn--${props.kind} CTA background-burnt-orange color-white`}
+      <button className={`btn btn--${props.kind} CTA background-burnt-orange color-white ${props.classes}`}
         data-id={props.id}
         type={props.type}
         name={props.name}

@@ -14,3 +14,7 @@ This provides React components for use in UT web projects.
 - Running the `build` script (e.g. `npm run build`) will produce the compiled packaged output in the `dist` folder at the top level of the project to verify.
 - Commit and push changes to the source repo.
 - Can publish via `npm publish` to make new version available on npm.
+
+
+## Pulling in the Forty Acres theme
+- The current forty_acres styling from the Drupal Kit has been brought over and imported. It gets transpiled via Babel into components. The `src/lib/styles` folder contains the data copied over from the forty_acres Drupal theme. The `texas-design-system` folder did not have the `images` folder initially, but this should be retrievable from the forty_acres / STARTERKIT subtheme folder. 
